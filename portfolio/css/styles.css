@@ -1,0 +1,50 @@
+  body{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+  }
+  body, ul{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1, h2, .skills-list  {
+    font-family: 'Inknut Antiqua', serif;
+  }
+
+  img{
+    /* this is limiting the width of the image
+    so it takes 100% of the parent maximum */
+    max-width: 100%;
+  }
+
+  nav {
+      background-color: #dbebf4;
+      position: fixed;
+      z-index: 1;
+      width: 100%;
+  }
+
+  nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:14px;
+}
+
+  nav ul{
+    margin: 0px auto;
+    text-align: center;
+    padding: 30px;
+  }
+
+  header {
+    top: 110px;
+    position: relative;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 130%;
+}
